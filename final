@@ -1,0 +1,17 @@
+public class Suma {
+    private static Scanner sc = new Scanner(System.in);
+    
+    public static void main(String[] args) {
+        System.out.printIn("Ingrese la cantidad de numeros");
+        int a=sc.nextInt();
+        System.out.printIn("\n La suma de los primeros numeros es: "+SumaImpares((n*2)-1)));
+        
+    }
+    public static int SumaImpares(int n) {
+        if(n==1) {
+            return 1;
+        } else {
+            return n + SumaImpares(n-2);
+        } 
+    }
+}
