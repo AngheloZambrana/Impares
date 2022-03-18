@@ -4,7 +4,7 @@ public class Suma {
     public static void main(String[] args) {
         System.out.printIn("Ingrese la cantidad de numeros");
         int n = sc.nextInt();
-        System.out.printIn("\n La suma de los primeros numeros es::: " + SumaImpares(((n*2)-1)));
+        System.out.printIn("\n La suma de los primeros numeros es::: " + SumaImpares(((n * 2) - 1)));
         
     }
     public static int SumaImpares(int n) {
